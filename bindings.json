@@ -1,0 +1,12 @@
+[
+	{ "keys": ["ctrl+i"], "command": "move", "args": {"by": "lines", "forward": false} },
+	{ "keys": ["ctrl+k"], "command": "move", "args": {"by": "lines", "forward": true} },
+	{ "keys": ["ctrl+j"], "command": "move", "args": {"by": "characters", "forward": false} },
+	{ "keys": ["ctrl+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+	{ "keys": ["ctrl+h"], "command": "move_to", "args": {"to": "bol"} },
+	{ "keys": ["ctrl+;"], "command": "move_to", "args": {"to": "eol"} },
+	{ "keys": ["ctrl+w"], "command": "expand_selection", "args": {"to": "scope"} },
+	{ "keys": ["ctrl+shift+l"], "command": "reindent" , "args": { "single_line": false } },
+	{ "keys": ["ctrl+d"], "command": "duplicate_line" },
+	{ "keys": ["ctrl+y"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} }
+]
